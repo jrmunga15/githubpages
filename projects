@@ -1,0 +1,90 @@
+
+<html>
+    <head>
+    <title>Projects</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Jose Munguia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="indexportfolio.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="projectspage.html">Projects</a>
+          </li>
+        </form>
+      </div>
+    </div>
+  </nav>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap" rel="stylesheet">
+    <style>
+        body{
+            font-family: 'Roboto', cursive;
+            background-color: cyan;
+            color: black;
+        }
+        .projects{
+          font-size: 5em;
+          font-style: normal;
+          text-align: center;
+          margin-top: 5%;
+          margin-bottom: 5%;
+        }
+        .content{
+          display: grid;
+          grid-template-columns: 1fr 1fr 1fr;
+          grid-template-rows: 1fr;
+          gap: 5px;
+        }
+        .box{
+          text-align: center;
+          background-color: tomato;
+          padding: 30px;
+        }
+        .p1{
+          font-size: 1.5em;
+          color: white;
+          font-style: italic;
+        }
+        .p2{
+          font-size: 1em;
+          color: white;
+        }
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: blue;
+        }
+    </style>
+    <h1 class="projects">Projects</h1>
+  </head>
+    <body>
+      <main class="content">
+        <div class="box">
+          <p class="p1">PacMen</p>
+          <p class="p2">This project focused making different pacmas simultaneously. Whenever a pacman reaches the border of the webpage, it will turn around and move in the opposite direction.</p>
+          <a href="https://github.com/jrmunga15/PacMen">Github PacMen</a>
+        </div>
+        <div class="box">
+          <p class="p1">Eye Exercise</p>
+          <p class="p2">This project focused on making two eyes follow the path of the mouse on the screen. If the mouse was moved from one place to another, the eye balls would always follow the mouse.</p>
+          <a href="https://github.com/jrmunga15/eyeexercise">Github Eye Exercise</a>
+        </div>
+        <div class="box">
+          <p class="p1">Real Time Bus Tracking</p>
+          <p class="p2">I don't know yet oops</p>
+          <a href="https://github.com/jrmunga15/realtimebustracking">Github Real Time Bus Tracking</a>
+        </div>
+    </main>
+        <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    </body>
+</html>
