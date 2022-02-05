@@ -1,0 +1,35 @@
+.container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        body{
+            font-family: 'Roboto', cursive;
+            background-color: cyan;
+            color: black;
+        }
+        img {
+        width: 200px;
+        height: 200px;
+        border-radius: 8px;
+        padding-left: 5px;
+        padding-top: 5px;
+        
+        }
+        .text{
+            font-size: 20px;
+            background-color: lawngreen;
+        }
+        a:link{
+            color: red;
+        }
+        a:visited{
+            color: blue;
+        }
+        .button{
+          background-color: khaki;
+          border: lawngreen;
+          text-align: center;
+          display: inline-block;
+          font-size: 20px;
+        }
